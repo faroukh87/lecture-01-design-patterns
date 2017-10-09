@@ -1,5 +1,7 @@
 // #Task 2 - 'Observer' pattern
 
+// Where is Subject, Observer and event here? 
+
 interface ISubscriber {
     bet: number;
     score: number;
@@ -16,7 +18,7 @@ class Bookmaker {
     private subscribers: Games;
 
     constructor() {
-        this.subscribers = new Games();
+        this.subscribers = new Games(); // instance can't be from plural
     }
 
     subscribe(game: string, publisher: ISubscriber) {
