@@ -1,5 +1,7 @@
 // #Task 3 - 'Facade' pattern
 
+// Apply Chain of resp pattern
+
 class Apartments {
     private age: number;
 
