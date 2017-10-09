@@ -1,5 +1,7 @@
 // #Task 4 - 'Decorator' pattern
 
+// Why do you think that it is decorator?
+
 class Ship {
     info() {
         console.log('Delivery will be by Ship');
