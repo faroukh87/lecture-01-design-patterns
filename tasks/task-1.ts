@@ -1,5 +1,7 @@
 // #Task 1 - 'Adapter' pattern
 
+// Where is entry point here and adapter itself?
+
 class UnitedStatesSocket {
     connect(cb: Function): void {
         cb();
