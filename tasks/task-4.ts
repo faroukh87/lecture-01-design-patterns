@@ -1,5 +1,7 @@
 // #Task 4 - 'Decorator' pattern
 
+// Why not Factory Method?
+
 class Ship {
     info() {
         console.log('Delivery will be by Ship');
